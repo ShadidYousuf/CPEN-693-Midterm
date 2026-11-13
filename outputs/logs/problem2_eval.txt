@@ -1,0 +1,11 @@
+problem2: cifar10 test results of all configurations
+resnet18 {}
+  parameters 11,173,962 | training time 253.4s | epochs run 34 | validation accuracy 90.90 | test loss 0.3710 | test accuracy 89.97
+resnet50 {}
+  parameters 23,520,842 | training time 833.8s | epochs run 37 | validation accuracy 91.02 | test loss 0.3410 | test accuracy 89.68
+
+problem2: cifar10 test results of the best configuration of each model (chosen by validation accuracy)
+resnet18 {}
+  parameters 11,173,962 | training time 253.4s | epochs run 34 | validation accuracy 90.90 | test loss 0.3710 | test accuracy 89.97
+resnet50 {}
+  parameters 23,520,842 | training time 833.8s | epochs run 37 | validation accuracy 91.02 | test loss 0.3410 | test accuracy 89.68

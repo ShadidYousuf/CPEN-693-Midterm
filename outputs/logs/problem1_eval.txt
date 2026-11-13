@@ -1,0 +1,47 @@
+problem1: cifar10 test results of all configurations
+cnn {'layers': 3, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 4,225,770 | training time 58.2s | epochs run 55 | validation accuracy 81.46 | test loss 0.5772 | test accuracy 81.08
+cnn {'layers': 5, 'filters': 16, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 1,086,554 | training time 94.0s | epochs run 93 | validation accuracy 83.82 | test loss 0.5579 | test accuracy 83.62
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 128, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 1,189,418 | training time 84.1s | epochs run 63 | validation accuracy 84.26 | test loss 0.5299 | test accuracy 83.41
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'gelu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 2,239,402 | training time 55.3s | epochs run 43 | validation accuracy 85.94 | test loss 0.4834 | test accuracy 85.63
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'leaky_relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 2,239,402 | training time 37.2s | epochs run 29 | validation accuracy 82.56 | test loss 0.5594 | test accuracy 82.24
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 2,239,402 | training time 71.6s | epochs run 55 | validation accuracy 82.46 | test loss 0.5316 | test accuracy 82.98
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.1}
+  parameters 2,239,402 | training time 56.4s | epochs run 43 | validation accuracy 81.78 | test loss 0.5474 | test accuracy 82.06
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.2}
+  parameters 2,239,402 | training time 111.7s | epochs run 85 | validation accuracy 84.62 | test loss 0.5033 | test accuracy 84.69
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.0}
+  parameters 2,240,554 | training time 73.0s | epochs run 37 | validation accuracy 88.72 | test loss 0.4100 | test accuracy 87.95
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'tanh', 'batch_norm': False, 'dropout': 0.0}
+  parameters 2,239,402 | training time 129.0s | epochs run 100 | validation accuracy 74.28 | test loss 0.7510 | test accuracy 74.44
+cnn {'layers': 5, 'filters': 32, 'stride': 1, 'hidden': 512, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 4,339,370 | training time 77.8s | epochs run 57 | validation accuracy 83.78 | test loss 0.5352 | test accuracy 83.27
+cnn {'layers': 5, 'filters': 32, 'stride': 2, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 666,538 | training time 61.5s | epochs run 66 | validation accuracy 81.18 | test loss 0.6160 | test accuracy 80.69
+cnn {'layers': 5, 'filters': 64, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 4,752,458 | training time 115.2s | epochs run 60 | validation accuracy 84.96 | test loss 0.5790 | test accuracy 83.20
+cnn {'layers': 5, 'filters': 64, 'stride': 1, 'hidden': 512, 'activation': 'gelu', 'batch_norm': False, 'dropout': 0.2}
+  parameters 8,949,578 | training time 145.6s | epochs run 57 | validation accuracy 87.90 | test loss 0.4978 | test accuracy 86.63
+cnn {'layers': 7, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 1,633,578 | training time 113.1s | epochs run 75 | validation accuracy 82.00 | test loss 0.5997 | test accuracy 81.27
+cnn {'layers': 7, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.0}
+  parameters 1,635,498 | training time 84.2s | epochs run 35 | validation accuracy 88.98 | test loss 0.3959 | test accuracy 88.14
+cnn {'layers': 7, 'filters': 64, 'stride': 1, 'hidden': 512, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.2}
+  parameters 6,525,514 | training time 229.4s | epochs run 83 | validation accuracy 83.78 | test loss 0.5793 | test accuracy 83.35
+cnn {'layers': 7, 'filters': 64, 'stride': 1, 'hidden': 512, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.2}
+  parameters 6,529,354 | training time 93.0s | epochs run 28 | validation accuracy 89.00 | test loss 0.3771 | test accuracy 88.86
+cnn {'layers': 9, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': False, 'dropout': 0.0}
+  parameters 2,879,530 | training time 151.1s | epochs run 87 | validation accuracy 80.98 | test loss 0.5742 | test accuracy 81.29
+cnn {'layers': 9, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.0}
+  parameters 2,882,986 | training time 114.0s | epochs run 39 | validation accuracy 89.18 | test loss 0.3677 | test accuracy 88.78
+cnn {'layers': 9, 'filters': 32, 'stride': 1, 'hidden': 512, 'activation': 'leaky_relu', 'batch_norm': False, 'dropout': 0.1}
+  parameters 3,406,634 | training time 40.1s | epochs run 18 | validation accuracy 69.12 | test loss 0.9245 | test accuracy 67.99
+
+problem1: cifar10 test results of the best configuration of each model (chosen by validation accuracy)
+cnn {'layers': 9, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.0}
+  parameters 2,882,986 | training time 114.0s | epochs run 39 | validation accuracy 89.18 | test loss 0.3677 | test accuracy 88.78

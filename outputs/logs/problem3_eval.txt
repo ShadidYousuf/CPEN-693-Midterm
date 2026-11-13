@@ -1,0 +1,15 @@
+problem3: fashion test results of all configurations
+cnn {'layers': 9, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.0}
+  parameters 2,489,194 | training time 130.0s | epochs run 40 | validation accuracy 94.78 | test loss 0.1829 | test accuracy 93.79
+fcn {'layers': 10, 'hidden': 256, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.0}
+  parameters 800,778 | training time 242.4s | epochs run 100 | validation accuracy 89.40 | test loss 0.3050 | test accuracy 88.57
+resnet18 {}
+  parameters 11,172,810 | training time 297.8s | epochs run 38 | validation accuracy 94.46 | test loss 0.1720 | test accuracy 94.32
+
+problem3: fashion test results of the best configuration of each model (chosen by validation accuracy)
+cnn {'layers': 9, 'filters': 32, 'stride': 1, 'hidden': 256, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.0}
+  parameters 2,489,194 | training time 130.0s | epochs run 40 | validation accuracy 94.78 | test loss 0.1829 | test accuracy 93.79
+fcn {'layers': 10, 'hidden': 256, 'activation': 'relu', 'batch_norm': True, 'dropout': 0.0}
+  parameters 800,778 | training time 242.4s | epochs run 100 | validation accuracy 89.40 | test loss 0.3050 | test accuracy 88.57
+resnet18 {}
+  parameters 11,172,810 | training time 297.8s | epochs run 38 | validation accuracy 94.46 | test loss 0.1720 | test accuracy 94.32

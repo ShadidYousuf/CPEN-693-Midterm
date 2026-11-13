@@ -1,0 +1,82 @@
+problem2: cifar10 on cuda
+resnet18 {}
+  epoch  1 | train loss 1.4861 | val loss 1.4146 | val acc 51.64
+  epoch  2 | train loss 1.0213 | val loss 1.1870 | val acc 60.98
+  epoch  3 | train loss 0.8259 | val loss 0.8903 | val acc 69.02
+  epoch  4 | train loss 0.6810 | val loss 0.8061 | val acc 74.08
+  epoch  5 | train loss 0.5877 | val loss 0.7136 | val acc 77.10
+  epoch  6 | train loss 0.5188 | val loss 0.5263 | val acc 81.92
+  epoch  7 | train loss 0.4608 | val loss 0.5911 | val acc 79.94
+  epoch  8 | train loss 0.4149 | val loss 0.4813 | val acc 83.56
+  epoch  9 | train loss 0.3772 | val loss 0.4734 | val acc 84.98
+  epoch 10 | train loss 0.3426 | val loss 0.3937 | val acc 87.36
+  epoch 11 | train loss 0.3132 | val loss 0.4591 | val acc 85.16
+  epoch 12 | train loss 0.2890 | val loss 0.4651 | val acc 85.00
+  epoch 13 | train loss 0.2679 | val loss 0.3970 | val acc 87.44
+  epoch 14 | train loss 0.2446 | val loss 0.3422 | val acc 88.98
+  epoch 15 | train loss 0.2223 | val loss 0.3311 | val acc 89.32
+  epoch 16 | train loss 0.2069 | val loss 0.3608 | val acc 88.66
+  epoch 17 | train loss 0.1878 | val loss 0.3412 | val acc 89.26
+  epoch 18 | train loss 0.1748 | val loss 0.4136 | val acc 88.10
+  epoch 19 | train loss 0.1637 | val loss 0.3670 | val acc 89.12
+  epoch 20 | train loss 0.1517 | val loss 0.3370 | val acc 89.90
+  epoch 21 | train loss 0.1397 | val loss 0.3707 | val acc 89.40
+  epoch 22 | train loss 0.1288 | val loss 0.3712 | val acc 89.16
+  epoch 23 | train loss 0.1158 | val loss 0.4238 | val acc 88.30
+  epoch 24 | train loss 0.1121 | val loss 0.3292 | val acc 90.90
+  epoch 25 | train loss 0.1017 | val loss 0.3864 | val acc 90.04
+  epoch 26 | train loss 0.0971 | val loss 0.3371 | val acc 91.02
+  epoch 27 | train loss 0.0872 | val loss 0.3739 | val acc 90.24
+  epoch 28 | train loss 0.0790 | val loss 0.3591 | val acc 91.18
+  epoch 29 | train loss 0.0733 | val loss 0.3983 | val acc 90.48
+  epoch 30 | train loss 0.0692 | val loss 0.4208 | val acc 90.78
+  epoch 31 | train loss 0.0677 | val loss 0.3894 | val acc 91.24
+  epoch 32 | train loss 0.0588 | val loss 0.3750 | val acc 91.40
+  epoch 33 | train loss 0.0566 | val loss 0.3812 | val acc 91.48
+  epoch 34 | train loss 0.0547 | val loss 0.3710 | val acc 91.78
+  early stopping at epoch 34
+  restored weights of best epoch 24
+  training time 253.4s | epochs run 34 | parameters 11,173,962 | validation accuracy 90.90
+resnet50 {}
+  epoch  1 | train loss 1.7938 | val loss 1.4976 | val acc 46.78
+  epoch  2 | train loss 1.2597 | val loss 1.4436 | val acc 57.02
+  epoch  3 | train loss 1.0174 | val loss 1.0245 | val acc 65.06
+  epoch  4 | train loss 0.8473 | val loss 0.8592 | val acc 70.68
+  epoch  5 | train loss 0.7141 | val loss 0.6894 | val acc 75.92
+  epoch  6 | train loss 0.6343 | val loss 0.6611 | val acc 78.22
+  epoch  7 | train loss 0.5730 | val loss 0.5693 | val acc 80.42
+  epoch  8 | train loss 0.5172 | val loss 0.5981 | val acc 79.86
+  epoch  9 | train loss 0.4789 | val loss 0.5260 | val acc 82.68
+  epoch 10 | train loss 0.4385 | val loss 0.5797 | val acc 81.46
+  epoch 11 | train loss 0.4074 | val loss 0.4469 | val acc 85.08
+  epoch 12 | train loss 0.3821 | val loss 0.4832 | val acc 83.44
+  epoch 13 | train loss 0.3627 | val loss 0.4689 | val acc 84.30
+  epoch 14 | train loss 0.3359 | val loss 0.4266 | val acc 86.64
+  epoch 15 | train loss 0.3244 | val loss 0.4265 | val acc 86.32
+  epoch 16 | train loss 0.2953 | val loss 0.4438 | val acc 85.74
+  epoch 17 | train loss 0.2789 | val loss 0.4035 | val acc 86.98
+  epoch 18 | train loss 0.2640 | val loss 0.4418 | val acc 86.16
+  epoch 19 | train loss 0.2522 | val loss 0.3367 | val acc 89.06
+  epoch 20 | train loss 0.2326 | val loss 0.3944 | val acc 88.02
+  epoch 21 | train loss 0.2237 | val loss 0.3581 | val acc 88.86
+  epoch 22 | train loss 0.2087 | val loss 0.3498 | val acc 89.30
+  epoch 23 | train loss 0.1954 | val loss 0.3099 | val acc 90.42
+  epoch 24 | train loss 0.1902 | val loss 0.4093 | val acc 87.80
+  epoch 25 | train loss 0.1779 | val loss 0.3384 | val acc 89.50
+  epoch 26 | train loss 0.1736 | val loss 0.4110 | val acc 88.00
+  epoch 27 | train loss 0.1568 | val loss 0.3048 | val acc 91.02
+  epoch 28 | train loss 0.1563 | val loss 0.3340 | val acc 90.22
+  epoch 29 | train loss 0.1390 | val loss 0.3701 | val acc 89.52
+  epoch 30 | train loss 0.1214 | val loss 0.3575 | val acc 90.02
+  epoch 31 | train loss 0.1151 | val loss 0.3372 | val acc 91.06
+  epoch 32 | train loss 0.1091 | val loss 0.3869 | val acc 89.96
+  epoch 33 | train loss 0.1053 | val loss 0.3281 | val acc 91.50
+  epoch 34 | train loss 0.1015 | val loss 0.3434 | val acc 91.12
+  epoch 35 | train loss 0.0958 | val loss 0.3572 | val acc 90.72
+  epoch 36 | train loss 0.0847 | val loss 0.3996 | val acc 90.60
+  epoch 37 | train loss 0.0811 | val loss 0.4348 | val acc 89.60
+  early stopping at epoch 37
+  restored weights of best epoch 27
+  training time 833.8s | epochs run 37 | parameters 23,520,842 | validation accuracy 91.02
+best resnet18: {} | validation accuracy 90.90
+best resnet50: {} | validation accuracy 91.02
